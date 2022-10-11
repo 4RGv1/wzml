@@ -346,7 +346,7 @@ class MirrorLeechListener:
         if EMOJI_THEME is True:
             msg = f"🗂️ <{NAME_FONT}>{file_}</{NAME_FONT}>\n<b>┌📐 Size: </b>{size}"
         else:
-            msg = f" <{NAME_FONT}>{file_}</{NAME_FONT}>\n<b>┌ Size: </b>{size}"
+            msg = f"<{NAME_FONT}>{file_}</{NAME_FONT}>\n<b>┌ Size: </b>{size}"
 
 
         if self.isLeech:
